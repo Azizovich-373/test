@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <title>21.06.24</title>
+<body>
+    <center>
+        <h2>В карзине: <span id="total_view">0</span> товар</h2>
+        <button class="btn_one">Показать первые: 5</button>
+        <button class="btn_two">Показать все</button>
+        <button class="btn_three">Menu</button>
+    </center>
+    <div class="container"></div>
+    <dialog class="dialog">
+        <button class="close"><img src="http://gillbachbahn.bahnwiki.org/images/thumb/3/32/SYMB_SCHLIESSEN.png/50px-SYMB_SCHLIESSEN.png" alt=""></button>
+        <div class="box_basket">
+            
+        </div>
+        <div class="total_box">
+            <h4 class="total_h">Итого</h4>
+            <h5 class="total"></h5>
+        </div>
+        <div class="box_buy">
+            <button class="buy">Перейти к оформлению</button>
+        </div>
+    </dialog>
+    <script src="./lib/db.js"></script>
+    <script src="./lib/utils.js"></script>
+    <script src="./components/Product.js"></script>
+    <script src="./components/CartItem.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

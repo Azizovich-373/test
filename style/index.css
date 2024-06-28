@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+}
+
+.img_cloth{
+    height: 100%;
+    padding: 15px;
+}
+.img_svg{
+    width: 15px;
+}
+.box_cloth{
+    width: 364px;
+    margin: 20px auto;
+    background-color: black;
+    border: 2px solid gray;
+    position: relative;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.box_white{
+    width: 360px;
+    height: 199px;
+    background-color: #fff;
+    text-align: center;
+}
+h1{
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.4px;
+    text-align: left;
+    color: #fff;
+    padding: 30px 30px 11px;
+    margin-bottom: 11px;
+}
+h2{
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.8px;
+    text-align: center;
+}
+h6{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.15px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgba(255, 255, 255, 0.56);
+    margin-bottom: 16px;
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 500;
+}
+.btn_cloth{
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 305px;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+
+}
+.btn_one,
+.btn_two,
+.btn_three{
+    width: 254px;
+    height: 55px;
+    gap: 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.dialog{
+    width: 700px;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid rgb(177, 176, 176);
+    border-radius: 10px;
+    padding: 20px;
+    transition: .5s ease-in;
+}
+.close{
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.box_basket{
+    width: 650px;
+    overflow-y: scroll;
+    height: 450px;
+    margin-top: 75px;
+}
+.basket{
+    width: 600px;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.img_basket{
+    width: 80%;
+    height: 100px;
+}
+.left_basket{
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.right_basket{
+    text-align: right;
+}
+.grid_prod{
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,25px);
+    margin-top: 25px;
+}
+.mines,
+.plus,
+.many{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.remove{    
+    width: 100px;
+    height: 25px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.total_box{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 100px auto 25px;
+    align-items: center;
+}
+.total_h{
+    font-size: 20px;
+    color: crimson;
+}
+.total{
+    color: crimson;
+    font-size: 20px;
+}
+.box_buy{
+    text-align: center;
+}
+.buy{
+    text-align: center;
+    width: 300px;
+    border: 2px solid rgb(77, 1, 77);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+.active-btn{
+    background-color: rgb(76, 76, 224);
+}
